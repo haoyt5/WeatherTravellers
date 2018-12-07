@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>forecast-alert!</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href=" bootstrap/bootstrapbase.css" />
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+		<!-- Start Background -->
+		 <div class="bg"></div>
+		 <!-- End Background -->
+		 <!-- Start Header -->
+		<header class="header">
+			<div class="container">
+				<!-- Start navbar -->
+				<div class="navbar u-clearfix">
+
+					<!-- Start menu-toggle -->
+					<div class="nav navbar__nav">
+						<a href="#popup-overlay" class="menu-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+						<!-- Start Popup-menu -->
+						<div id="popup-overlay" class="popup-menu">	
+							<div class="container">
+								<!-- Start cross -->
+								<div class="u-clearfix">
+									<a href="#" class="popup-menu__close">
+									<span></span>
+									<span></span>
+									</a>
+								</div>
+								<!-- End cross -->
+								<!-- Start item -->
+								<div class="container">
+									<ul>
+										<li>
+											<a href="comparison.html" class="popup-menu__item popup-menu__item__place">
+												<div class="row">
+													<div class="col-xs-2">
+														<i class="icon icon-location"></i>
+													</div>
+													<div class="place col-xs-7 ">
+														BERKELEY
+													</div>
+													<div class="col-xs-3">
+														13°
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="popup-menu__item popup-menu__item__place">
+												<div class="row">
+													<div class="col-xs-2">
+														<i class="icon icon-sun"></i>
+													</div>
+													<div class="place col-xs-7">
+														SACRAMENTO
+													</div>
+													<div class="col-xs-3">
+														16°
+													</div>
+												</div>
+											</a>
+										<li>
+										</li>
+											<a href="#" class="popup-menu__item popup-menu__item__place">
+												<div class="row">
+													<div class="col-xs-2">
+														<i class="icon icon-cloud"></i>
+													</div>
+													<div class="place col-xs-7">
+														OAKLAND
+													</div>
+													<div class="col-xs-3">
+														13°
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="popup-menu__item popup-menu__item__place">
+												<div class="row">
+													<div class="col-xs-2">
+														<i class="icon icon-cloud"></i>
+													</div>
+													<div class="place col-xs-7">
+														EMERYVILLE
+													</div>
+													<div class="col-xs-3">
+														13°
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="popup-menu__item2 popup-menu__item__place ">
+												<div class="row">
+													<div class="col-xs-2">
+														<i class="icon icon-plus-circled"></i>
+													</div>
+													<div class="place col-xs-7">
+														Add Place
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- End item -->
+							</div>
+								<div class="container">
+									<div class="systembar">
+										<div class="popup-menu__icon">
+											<a href="forecast-alert.html" class="icon-btn2">
+											<i class="icon icon-attention"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- End Popup-menu -->
+					</div>
+					<!-- End menu-toggle -->
+
+
+					<!-- Start location name -->
+					<!-- End location name -->
+
+					<!-- Start location icon -->
+					<div class="location navbar__location">
+						<a href="comparison.html" class="icon-btn">
+							<i class="icon icon-location">
+							</i>
+						</a>
+					</div>
+					<!-- End location icon -->
+
+				</div>
+			</div>
+		</header>
+		 <!-- End Header -->
+		<!-- Start Servere alarm -->
+		<div class="alarm">
+			
+		</div>
+		<!-- End Servere alarm-->
+		 <!-- Stadt weather -->
+		<div class="weather">
+			<div class="container">
+				<div class="box box1 ">
+					<h1 class="">BERKELEY
+					<a href="#popup-overlay-alert" class="icon-btn-alarm"><i class=" icon-attention"></i></a> 
+					</h1>
+					<h4 >THUNDERSTORM</h4>
+					<h3>14℃</h3>
+					<h5>feels like 13℃</h5>
+				</div>
+			</div>
+		</div>
+		 <!-- End main -->
+		 <!-- Start alert -->
+		 <div id="popup-overlay-alert" class="popup-alert u-clearfix">
+		 	<a href="#" class="popup-alert__close">
+		 		<i class="icon-window-close-o"></i>
+		 	</a>
+			<div class="alert-sign">
+				<div class="alert-sign__icon">
+		 		<i class="icon-cloud-flash"></i>
+		 		</div>
+		 		<h2>Thunderstorm Watch until 5p.m at Berkely.</h2>
+		 	</div>
+		 </div>
+		 <!-- End alert -->
+		 <!-- Start Arcing Sun -->
+		<div class="orbit">		
+			<div class="sunorbit"></div>
+		</div>
+		 <!-- Start Arcing Sun -->
+		 <div class="sun radius-bg--top">
+		 	<div class="cotainer">
+		 	</div>
+		 </div>
+		 <!-- End Arcing Sun bg-->
+
+		 <!-- Start Hourly Forecast -->
+		 <div class="hour">
+		 	<div class="container">
+		 		<div class="row">
+		 			<div class="col-xs-3 brick__hour">
+		 				<a href="#" class="brick__hour-btn">
+			 				<ul>
+			 					<div class="time__hour">
+			 						NOW
+			 					</div>
+			 					<div  class="time__icon">
+			 							<i class="icon icon-cloud-flash"></i>
+			 					</div>
+			 					<div  class="time__clecius">
+			 						13℃
+			 					</div>
+			 				</ul>
+			 			</a>
+		 			</div>
+		 			<div class="col-xs-3 brick__hour">
+		 				<a href="#" class="brick__hour-btn">
+			 				<ul>
+			 					<div class="time__hour">
+			 						09
+			 					</div>
+			 					<div  class="time__icon">
+			 							<i class="icon icon-cloud"></i>
+			 					</div>
+			 					<div  class="time__clecius">
+			 						14℃
+			 					</div>
+			 				</ul>
+			 			</a>
+		 			</div>
+		 			<div class="col-xs-3 brick__hour">
+		 				<a href="#" class="brick__hour-btn">
+			 				<ul>
+			 					<div class="time__hour">
+			 						10
+			 					</div>
+			 					<div  class="time__icon">
+			 							<i class="icon icon-cloud-sun"></i>
+			 					</div>
+			 					<div  class="time__clecius">
+			 						16℃
+			 					</div>
+			 				</ul>
+			 			</a>
+		 			</div>
+		 			<div class="col-xs-3 brick__hour">
+		 				<a href="#" class="brick__hour-btn">
+			 				<ul>
+			 					<div class="time__hour">
+			 						11
+			 					</div>
+			 					<div  class="time__icon">
+			 							<i class="icon icon-cloud-sun"></i>
+			 					</div>
+			 					<div  class="time__clecius">
+			 						16℃
+			 					</div>
+			 				</ul>
+			 			</a>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </div>
+		 <!-- End Hourly Forecast -->
+
+		 <!-- Start Detail Information -->
+		 <div class="information">
+		 	<div class="container">
+		 		<div class="row">
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">SUNRISE
+		 				</div>
+		 				<div class="detailbrickcontent">05:45
+		 				</div>
+		 				</ul>
+		 			</div>
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">SUNSET
+		 				</div>
+		 				<div class="detailbrickcontent">20:22
+		 				</div>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 		<div class="row">
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">VISIBILITY
+		 				</div>
+		 				<div class="detailbrickcontent">12.9 km
+		 				</div>
+		 				</ul>
+		 			</div>
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">UV INDEX
+		 				</div>
+		 				<div class="detailbrickcontent">9
+		 				</div>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 		<div class="row">
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">WIND
+		 				</div>
+		 				<div class="detailbrickcontent">w 5 m/s
+		 				</div>
+		 				</ul>
+		 			</div>
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">FEELS LIKE
+		 				</div>
+		 				<div class="detailbrickcontent">19℃
+		 				</div>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 		<div class="row">
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">RAIN
+		 				</div>
+		 				<div class="detailbrickcontent">10%
+		 				</div>
+		 				</ul>
+		 			</div>
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">HUMIDITY
+		 				</div>
+		 				<div class="detailbrickcontent">67%
+		 				</div>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 		<div class="row">
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">PERCIPITATION
+		 				</div>
+		 				<div class="detailbrickcontent">0 cm
+		 				</div>
+		 				</ul>
+		 			</div>
+		 			<div class="col-xs-6 detailbrick">
+		 				<ul>
+		 				<div class="detailbricktitle">PRESSURE
+		 				</div>
+		 				<div class="detailbrickcontent">1013 hPa
+		 				</div>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </div>
+		 <!-- End Detail Information -->
+
+</body>
+</html>
